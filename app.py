@@ -5,8 +5,7 @@ import pandas as pd
 from flask import Flask, render_template, request
 from flask_cors import CORS, cross_origin
 
-app = Flask(__name__)
-cors = CORS(app)
+app = Flask(__name__, template_folder="../templates")cors = CORS(app)
 
 model = pickle.load(open('LinearRegressionModel.pkl', 'rb'))
 car = pd.read_csv('Cleaned_Car_data.csv')
