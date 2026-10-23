@@ -1,2 +1,2 @@
 # Car-Price-Predictor...
-This is car  price predictor project
+Car Price Predictor is a machine learning web app that estimates the resale price of a used car.
